@@ -43,6 +43,13 @@
       "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk0PCpReBOAZAKqQ9p0Xe8VLOazlOJQsnpOsMJaw7EhxC9g5FL7l1AVFPo4qTOkMjz_hg&usqp=CAU",
       "categoria": "bebida fria",
       "id": 7
+    },
+    {
+      "nombreProducto": "papas lays",
+      "precio": "670",
+      "imagen": "https://media.f2h.shop/media/catalog/product/cache/ab45d104292f1bb63d093e6be8310c97/l/a/lays_clasicas_150gx15_uy.png",
+      "categoria": "salado",
+      "id": 8
     }
   ],
   "usuarios": [

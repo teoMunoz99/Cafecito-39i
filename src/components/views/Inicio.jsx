@@ -1,7 +1,19 @@
 import { Container, Row } from "react-bootstrap";
 import CardProducto from "./producto/CardProducto";
 import { useEffect, useState } from "react";
+import { obtenerProductos } from "../helpers/queries";
+
 const Inicio = () => {
+  const [productos, setProductos] = useState([]);
+
+  useEffect(() => {
+    obtenerProductos().then((respuesta) => {
+      console.log(respuesta);
+      setProductos(respuesta);
+      // todo: resolver la situacion cuando no puedo realizar la conexion a la API
+    });
+  }, []);
+
   return (
     <section className="mainSection">
       <img
@@ -13,10 +25,13 @@ const Inicio = () => {
         <h1 className="display-4">Nuestros Productos</h1>
         <hr />
         <Row>
-            <CardProducto></CardProducto>
-            <CardProducto></CardProducto>
-            <CardProducto></CardProducto>
-            <CardProducto></CardProducto>
+          {productos.map((producto) => (
+            <CardProducto
+              key={producto.id}
+              producto={producto}
+              setProductos={setProductos}
+            ></CardProducto>
+          ))}
         </Row>
       </Container>
     </section>
