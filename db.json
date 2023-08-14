@@ -1,0 +1,56 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombreProducto": "café",
+      "precio": 200,
+      "categoria": "bebida caliente",
+      "descripcion": "alguna descripcion",
+      "imagen": "linkimagen"
+    },
+    {
+      "categoria": "bebida caliente",
+      "imagen": "https://images.pexels.com/photos/1672304/pexels-photo-1672304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "nombreProducto": "medialuna",
+      "precio": 34,
+      "id": 2
+    },
+    {
+      "categoria": "dulce",
+      "descripcion": "alguna descripcion",
+      "imagen": "https://images.pexels.com/photos/1672304/pexels-photo-1672304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "nombreProducto": " medialuna con jamon y queso",
+      "precio": 300,
+      "id": 3
+    },
+    {
+      "nombreProducto": "té de manzanilla",
+      "precio": "150",
+      "imagen": "https://images.pexels.com/photos/1672304/pexels-photo-1672304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "categoria": "bebida caliente",
+      "id": 4
+    },
+    {
+      "nombreProducto": "pan 1kg",
+      "precio": "550",
+      "imagen": "https://images.pexels.com/photos/1672304/pexels-photo-1672304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "categoria": "salado",
+      "id": 5
+    },
+    {
+      "nombreProducto": "coca cola  1l",
+      "precio": "500",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk0PCpReBOAZAKqQ9p0Xe8VLOazlOJQsnpOsMJaw7EhxC9g5FL7l1AVFPo4qTOkMjz_hg&usqp=CAU",
+      "categoria": "bebida fria",
+      "id": 7
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombreUsuario": "admin",
+      "email": "admin@rollingcode.com",
+      "password": "123456aA"
+    }
+  ]
+}
