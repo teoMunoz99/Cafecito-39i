@@ -99,12 +99,13 @@ export const consultaEditarProducto = async(producto, id)=>{
 
 export const consultaCrearUsuario = async(usuario)=>{
     try{
+        const usuarioNormal = { ...usuario, rol: 'normal' }; // Asignar rol "normal" por defecto
         const respuesta = await fetch(URL_USUARIO, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify(usuario)
+            body: JSON.stringify(usuarioNormal), // Envía el usuario con el rol asignado
         });
         return respuesta;
     }catch (error){

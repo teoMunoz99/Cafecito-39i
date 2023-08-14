@@ -56,13 +56,15 @@
       "id": 1,
       "nombreUsuario": "admin",
       "email": "admin@rollingcode.com",
-      "password": "123456aA"
+      "password": "123456aA",
+      "rol": "admin"
     },
     {
       "nombreUsuario": "tadeo",
       "email": "tadeo@hotmail.com",
       "password": "123456aA",
-      "id": 2
+      "id": 2,
+      "rol": "normal"
     }
   ]
 }
