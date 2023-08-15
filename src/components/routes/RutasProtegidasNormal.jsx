@@ -5,7 +5,7 @@ const RutasProtegidasNormal = ({ children }) => {
   if (usuarioLogueado.rol === "normal") {
     return children;
   } else {
-    return <Navigate to={"/registro"}></Navigate>;
+    return <Navigate to={"/login"}></Navigate>;
   }
 };
 

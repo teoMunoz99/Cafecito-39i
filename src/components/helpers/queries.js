@@ -112,3 +112,14 @@ export const consultaCrearUsuario = async(usuario)=>{
         console.log(error);
     }
 }
+
+export const obtenerUsuario = async(id)=>{
+    try{
+        const respuesta = await fetch(`${URL_USUARIO}/${id}`);
+        const usuarioLogueado = await respuesta.json();
+        console.log("El usuario logueado es: "+usuarioLogueado.nombreUsuario)
+        return usuarioLogueado;
+    }catch(error){
+        console.log(error)
+    }
+} 

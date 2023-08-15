@@ -6,16 +6,11 @@ const RutasUsuarios = () => {
   return (
     <>
       <Routes>
-        <Route
-          exact
-          path="/"
-          element={<Inicio></Inicio>}
-        ></Route>
-        <Route
-          exact
-          path="/perfil/*"
-          element={<Perfil></Perfil>}
-        ></Route>
+        <Route 
+          exact 
+          path="/" 
+          element={<Perfil></Perfil>}>
+        </Route>
       </Routes>
     </>
   );

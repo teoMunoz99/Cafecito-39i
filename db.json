@@ -79,6 +79,13 @@
       "password": "123456aA",
       "rol": "normal",
       "id": 4
+    },
+    {
+      "nombreUsuario": "ignacio",
+      "email": "ignacio@hotmail.com",
+      "password": "123456aA",
+      "rol": "normal",
+      "id": 5
     }
   ]
 }
