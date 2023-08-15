@@ -7,7 +7,7 @@ const RutasProtegidas = ({ children }) => {
     return <Navigate to={"/login"} />;
   } else if (usuarioLogueado.rol !== "admin") {
     return <Navigate to={"/"} />;
-  } else {
+  }else {
     return children;
   }
 };

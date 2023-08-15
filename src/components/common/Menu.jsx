@@ -46,7 +46,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
                 Login
               </NavLink>
             )}
-            {usuarioLogueado.email && usuarioLogueado.rol !== "admin" && (
+            {usuarioLogueado.email && usuarioLogueado.rol === "normal" && (
               <>
                 <NavLink end className="nav-item nav-link" to={"/Perfil"}>
                   Mi perfil

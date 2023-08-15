@@ -5,7 +5,6 @@ import Menu from "./components/common/Menu";
 import Footer from "./components/common/Footer";
 import Inicio from "./components/views/Inicio";
 import Registro from "./components/views/Registro";
-import Perfil from "./components/views/Perfil";
 import Login from "./components/views/Login";
 import DetalleProducto from "./components/views/DetalleProducto";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -47,10 +46,10 @@ function App() {
           }
         ></Route>
         <Route
-          path="/usuario/*"
+          path="/Perfil"
           element={
             <RutasProtegidas>
-              <RutasUsuarios />
+              <RutasUsuarios></RutasUsuarios>
             </RutasProtegidas>
           }
         />
