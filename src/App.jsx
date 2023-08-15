@@ -5,6 +5,7 @@ import Menu from "./components/common/Menu";
 import Footer from "./components/common/Footer";
 import Inicio from "./components/views/Inicio";
 import Registro from "./components/views/Registro";
+import Perfil from "./components/views/Perfil";
 import Login from "./components/views/Login";
 import DetalleProducto from "./components/views/DetalleProducto";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -45,8 +46,6 @@ function App() {
             </RutasProtegidas>
           }
         ></Route>
-
-        <Route path="*" element={<Error404></Error404>}></Route>
         <Route
           path="/usuario/*"
           element={
@@ -55,6 +54,7 @@ function App() {
             </RutasProtegidas>
           }
         />
+        <Route path="*" element={<Error404></Error404>}></Route>
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
