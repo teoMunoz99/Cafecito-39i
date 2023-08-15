@@ -13,7 +13,7 @@ const RutasUsuarios = () => {
         ></Route>
         <Route
           exact
-          path="/Perfil"
+          path="/perfil/*"
           element={<Perfil></Perfil>}
         ></Route>
       </Routes>

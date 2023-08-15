@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 const Perfil = () => {
     return (
-        <div>
-            <h1>hola</h1>
+        <div className='m-5'>
+            <h1 className='m-5'>hola</h1>
         </div>
     );
 };

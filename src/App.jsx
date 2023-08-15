@@ -9,9 +9,10 @@ import Login from "./components/views/Login";
 import DetalleProducto from "./components/views/DetalleProducto";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
-import RutasProtegidas from "./components/routes/RutasProtegidas";
+import RutasProtegidasAdmin from "./components/routes/RutasProtegidasAdmin";
 import RutasAdministrador from "./components/routes/RutasAdministrador";
 import RutasUsuarios from "./components/routes/RutasUsuarios";
+import RutasProtegidasNormal from "./components/routes/RutasProtegidasNormal";
 
 function App() {
   const usuarioSessionStorage =
@@ -40,17 +41,17 @@ function App() {
         <Route
           path="/administrador/*"
           element={
-            <RutasProtegidas>
+            <RutasProtegidasAdmin>
               <RutasAdministrador></RutasAdministrador>
-            </RutasProtegidas>
+            </RutasProtegidasAdmin>
           }
         ></Route>
         <Route
-          path="/Perfil"
+          path="/perfil/*"
           element={
-            <RutasProtegidas>
+            <RutasProtegidasNormal>
               <RutasUsuarios></RutasUsuarios>
-            </RutasProtegidas>
+            </RutasProtegidasNormal>
           }
         />
         <Route path="*" element={<Error404></Error404>}></Route>

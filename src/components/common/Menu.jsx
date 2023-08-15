@@ -48,7 +48,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
             )}
             {usuarioLogueado.email && usuarioLogueado.rol === "normal" && (
               <>
-                <NavLink end className="nav-item nav-link" to={"/Perfil"}>
+                <NavLink end className="nav-item nav-link" to={"/perfil/1"}>
                   Mi perfil
                 </NavLink>
                 <Button variant="dark" onClick={logout}>
