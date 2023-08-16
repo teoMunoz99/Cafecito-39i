@@ -1,46 +1,11 @@
 {
   "productos": [
     {
-      "nombreProducto": "café",
-      "precio": 200,
-      "imagen": "data:image/jpeg;base64,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",
-      "categoria": "bebida caliente",
-      "id": 1
-    },
-    {
-      "categoria": "bebida caliente",
-      "imagen": "https://images.pexels.com/photos/1672304/pexels-photo-1672304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "nombreProducto": "medialuna",
-      "precio": 34,
-      "id": 2
-    },
-    {
-      "categoria": "dulce",
-      "descripcion": "alguna descripcion",
-      "imagen": "https://images.pexels.com/photos/1672304/pexels-photo-1672304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "nombreProducto": " medialuna con jamon y queso",
-      "precio": 300,
-      "id": 3
-    },
-    {
-      "nombreProducto": "té de manzanilla",
-      "precio": "150",
-      "imagen": "https://images.pexels.com/photos/1672304/pexels-photo-1672304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "categoria": "bebida caliente",
-      "id": 4
-    },
-    {
-      "nombreProducto": "pan 1kg",
-      "precio": "550",
-      "imagen": "https://images.pexels.com/photos/1672304/pexels-photo-1672304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-      "categoria": "salado",
-      "id": 5
-    },
-    {
       "nombreProducto": "coca cola  1l",
       "precio": "500",
       "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk0PCpReBOAZAKqQ9p0Xe8VLOazlOJQsnpOsMJaw7EhxC9g5FL7l1AVFPo4qTOkMjz_hg&usqp=CAU",
       "categoria": "bebida fria",
+      "usuarioId": 2,
       "id": 7
     },
     {
@@ -48,7 +13,24 @@
       "precio": "670",
       "imagen": "https://media.f2h.shop/media/catalog/product/cache/ab45d104292f1bb63d093e6be8310c97/l/a/lays_clasicas_150gx15_uy.png",
       "categoria": "salado",
+      "usuarioId": 2,
       "id": 8
+    },
+    {
+      "nombreProducto": "pringles",
+      "precio": "2400",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAqLJns3i9OdRBslOo6OGURLxbUzAMWwN0xNR2xullnJUzD62moRF-VI0R7y3qx7CndBo&usqp=CAU",
+      "categoria": "salado",
+      "usuarioId": 2,
+      "id": 9
+    },
+    {
+      "nombreProducto": "chetos",
+      "precio": "950",
+      "imagen": "https://www.cheetos.com/sites/cheetos.com/files/2019-03/Cheetos%20Crunchy_v2_0.png",
+      "categoria": "salado",
+      "usuarioId": 2,
+      "id": 11
     }
   ],
   "usuarios": [
@@ -86,6 +68,13 @@
       "password": "123456aA",
       "rol": "normal",
       "id": 5
+    },
+    {
+      "nombreUsuario": "Elo Podcast",
+      "email": "elopodcast@hotmail.com",
+      "password": "123456aA",
+      "rol": "normal",
+      "id": 6
     }
   ]
 }

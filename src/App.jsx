@@ -50,7 +50,7 @@ function App() {
           path="/perfil/*"
           element={
             <RutasProtegidasNormal>
-              <RutasUsuarios></RutasUsuarios>
+              <RutasUsuarios usuarioLogueado={usuarioLogueado}/>
             </RutasProtegidasNormal>
           }
         />

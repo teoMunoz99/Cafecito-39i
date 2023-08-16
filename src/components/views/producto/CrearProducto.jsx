@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { consultaCrearProducto } from "../../helpers/queries";
 import Swal from "sweetalert2";
 
-const CrearProducto = () => {
+const CrearProducto = ({ usuarioLogueado }) => {
   const {
     register,
     handleSubmit,
@@ -14,7 +14,7 @@ const CrearProducto = () => {
   const onSubmit = (productoNuevo) => {
     console.log(productoNuevo);
     // realizar la peticion que agrega el producto a la API
-    consultaCrearProducto(productoNuevo).then((respuesta)=>{
+    consultaCrearProducto(productoNuevo, usuarioLogueado.id).then((respuesta)=>{
       if(respuesta.status === 201){
         Swal.fire(
           'Producto Creado',
